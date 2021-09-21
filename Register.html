@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/sing.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="Images/icon.png">
+</head>
+<body>
+    <!-- HEAD-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand  ml-auto mr-auto" href="deluxe.html"><img src="Images/logo.png"   height="50px"></a>
+    </nav>
+    <div class="row border mt-5 mr-2 ml-1">
+        
+        <div class="col-lg-7 col-md-10 p-5 mt-5">
+            <img src="Images/register.jpg" width="700px">
+        </div>
+        <div class="col-lg-5 col-md-10 text-center">
+            <div class="form-group ">
+                <div class="row  mt-5 p-3">
+                    <span class="h4 text-center col-lg-12 mb-3 mt-3">Register</span>
+                    <div class="col-lg-12 mt-4">
+                        <input type="text" id="uname" class="form-control" placeholder="Username">
+                    </div>
+                    <div id="error1" class="col-lg-12"></div>
+
+                    <div class="col-lg-12 mt-4">
+                        <input type="text" id="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div id="error2" class="col-lg-12"></div>
+
+                    <div class="col-lg-12 mt-4">
+                        <input type="password" class="form-control" placeholder="password" id="pass">
+                    </div>
+                    <div id="error3" class="col-lg-12"></div>
+
+                    
+                    <div class="col-lg-12 mt-4">
+                        <input type="password" class="form-control" placeholder="Confirm password" id="cpass">
+                    </div>
+                    <div id="error4" class="col-lg-12"></div>
+
+                    <div class="col-lg-2"></div>
+                    <input type="checkbox" class="col-lg-1 mt-4" id="showpass"><label id="sp" class="col-lg-8 mt-3">show password</label><br>
+                    
+                    <button type="button" class="btn btn-info col-lg-12 mt-4"  onclick="vali()">Register</button>
+                    <div class="col-lg-12" id="success"></div>
+                    <div class="col-lg-12 text-center mt-3"> <a href="Sign.html">Log in</a></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+    <script src="Js/register.js"></script>
+</body>
+</html>
