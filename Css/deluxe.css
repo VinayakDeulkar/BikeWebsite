@@ -101,43 +101,248 @@
     transform: scale(1.5);
 }
 
-  @media screen and (max-width:767px){
-    
+  @media screen and (max-width:360px){
+    .fixed-top{
+      position: relative;
+      width: 100%;
+    }
+    .header{
+      margin: 0px;
+    }
+
     .logo{
         text-align: center;
-    }
-    .img{
-        margin-top: 130px;
+        height: 30px;
     }
     
-    .carousel-item img{
-      height: 500px;
+    .input{
+      width: 200px;
+      height: 30px;
+      margin-top: 8px;
     }
+    .ui-autocomplete {
+      padding-bottom:0px;
+      top: 0;
+    }
+
+    .search{
+      width: 70px;
+      margin-left: 5px;
+    }
+    .hov{
+      
+      font-size: 8px;
+    }
+    .carousel-item img{
+      height: 225px;
+    }
+    .head{
+      text-align: center;
+      bottom: 5%;
+      left: 5%;
+    }
+    .it{
+      font-size: 10px;
+    }
+    .fonts{
+      font-size: 7px;
+    }
+    .label{
+      font-size: 10px;
+    }
+    .brand img{
+      height: 50px;
+      width: 60px;
+    }
+    .brand{
+      margin-left: 10px;
+    }
+    .brand .p-2{
+      width: 100px;
+    }
+    .card{
+      width: 300px;
+      margin: 20px;
+    }
+    .liked .card img{
+      height: 230px;
+      width: 239px;
+    }
+    .zoom {
+      width: 250px;
+      height: 250px;
+  }
+  
+  .zoom:hover img {
+    transform: none;
+}
+.txt{
+  margin: 10px;
 }
 
-@media screen and (max-width:423px){
-    
+}
+
+
+@media screen and (max-width:412px){
+  .fixed-top{
+    position: relative;
+    width: 100%;
+  }
+  .header{
+    margin: 0px;
+  }
+
   .logo{
       text-align: center;
+      height: 30px;
   }
-  .img{
-      margin-top: 130px;
+  .ui-autocomplete{
+    font-size: 10px;
+    padding-top: 100px;
   }
-  .carousel{
-    margin-top: 350px;
+  .input{
+    width: 200px;
+    height: 30px;
+    margin-top: 8px;
+  }
+
+  .search{
+    width: 70px;
+    margin-left: 5px;
+  }
+  .hov{
+    
+    font-size: 8px;
   }
   .carousel-item img{
-    
-    height: 200px;
+    height: 225px;
   }
-  .fonts{
-    font-size: 10px;
+  .head{
+    text-align: center;
+    bottom: 5%;
+    left: 5%;
   }
   .it{
-    font-size: 12px;
+    font-size: 10px;
   }
-  .col-xs-10{
-    text-align: center;
+  .fonts{
+    font-size: 7px;
   }
+  .label{
+    font-size: 10px;
+  }
+  .brand img{
+    height: 50px;
+    width: 60px;
+  }
+  .brand{
+    margin: 10px;
+  }
+  .brand .p-2{
+    width: 100px;
+    margin-left: 9px;
+  }
+  .card{
+    width: 365px;
+    margin: 20px;
+  }
+  .liked .card img{
+    height: 230px;
+    width: 250px;
+  }
+  .zoom {
+    width: 250px;
+    height: 250px;
 }
+
+.zoom:hover img {
+  transform: none;
+}
+.txt{
+margin: 10px;
+}
+}
+
+
+@media screen and (max-width:320px){
+  .fixed-top{
+    position: relative;
+    width: 100%;
+  }
+  .header{
+    margin: 0px;
+  }
+
+  .logo{
+      text-align: center;
+      height: 30px;
+  }
+  .ui-autocomplete{
+    font-size: 10px;
+    padding-top: 100px;
+  }
+  .input{
+    width: 180px;
+    height: 30px;
+    margin-top: 8px;
+  }
+
+  .search{
+    width: 70px;
+    margin-left: 5px;
+  }
+  .hov{
+    
+    font-size: 8px;
+  }
+  .carousel-item img{
+    height: 225px;
+  }
+  .head{
+    text-align: center;
+    bottom: 5%;
+    left: 5%;
+  }
+  .it{
+    font-size: 10px;
+  }
+  .fonts{
+    font-size: 7px;
+  }
+  .label{
+    font-size: 10px;
+  }
+  .brand img{
+    height: 50px;
+    width: 60px;
+  }
+  .brand{
+    margin: 18px;
+  }
+  .brand .p-2{
+    width: 100px;
+    margin-left: 9px;
+  }
+  .card{
+    width: 365px;
+    margin: 20px;
+  }
+  .liked .card img{
+    height: 180px;
+    width: 200px;
+  }
+  .zoom {
+    height: 180px;
+    width: 200px;
+}
+
+.zoom:hover img {
+  transform: none;
+}
+.txt{
+margin: 10px;
+}
+}
+
+
 
