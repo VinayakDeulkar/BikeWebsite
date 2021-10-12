@@ -2,9 +2,39 @@ body{
     background: rgb(238, 237, 237)
 }
 @media screen and (max-width:360px){
-    #img{
+    .img img{
         height: 200px;
-        width: 330px;
+        width: 300px;
+    }
+    .bo{
+        margin: 0px;
+        padding: 0px;
+    }
+    .p-5{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:411px){
+    .img img{
+        height: 200px;
+        width: 300px;
+    }
+    .bo{
+        margin: 0px;
+        padding: 0px;
+    }
+    .p-5{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:320px){
+    .img img{
+        height: 200px;
+        width: 300px;
+    }
+    .bo{
+        margin: 0px;
+        padding: 0px;
     }
     .p-5{
         padding: 0px;

@@ -36,10 +36,7 @@
       padding-bottom:0px;
       top: 0;
     }
-    .img{
-        height: 150px;
-        width: 100px;
-    }
+    
     .search{
       width: 70px;
       margin-left: 5px;
@@ -77,6 +74,10 @@
     }
     .mt-3{
         margin: 0;
+    }
+    .zoom img{
+      height: 250px;
+      width: 225px;
     }
     .card{
       width: 300px;
@@ -191,6 +192,10 @@ margin: 10px;
   .header{
     margin: 0px;
   }
+  .zoom img{
+    height: 200px;
+    width: 175px;
+  }
 
   .logo{
       text-align: center;
@@ -205,7 +210,9 @@ margin: 10px;
     height: 30px;
     margin-top: 8px;
   }
-
+  .flex-center a{
+    font-size: 8px;
+  }
   .search{
     width: 70px;
     margin-left: 5px;
